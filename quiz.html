@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="image"></div>
+    <h3 id="scores">View Scores</h3>
+    <h2 id="questions">Total Questions: 10</h2>
+    <div class="container hide">
+      <div class="progress">
+        <div class="containeritem" data-1>1</div>
+        <div class="containeritem" data-2>2</div>
+        <div class="containeritem" data-3>3</div>
+        <div class="containeritem" data-4>4</div>
+        <div class="containeritem" data-5>5</div>
+        <div class="containeritem" data-6>6</div>
+        <div class="containeritem" data-7>7</div>
+        <div class="containeritem" data-8>8</div>
+        <div class="containeritem" data-9>9</div>
+        <div class="containeritem" data-10>10</div>
+      </div>
+    </div>
+    <h3 id="time">Time: 2min 30s</h3>
+    <h1 class="main">Coding Quiz Challenge</h1>
+    <p id="paragraph">
+      Following quiz provides Multiple Choice Questions (MCQs) related to
+      Javascript Framework. You will have to read all the given answers and
+      click over the correct answer.
+    </p>
+    <button id="startQuiz" class="">Start Quiz</button>
+    <ol class="list hide">
+      <li class="list-item" data-0><a href="#" class="link"></a></li>
+      <li class="list-item" data-1><a href="#" class="link"></a></li>
+      <li class="list-item" data-2><a href="#" class="link"></a></li>
+      <li class="list-item" data-3><a href="#" class="link"></a></li>
+    </ol>
+    <h3 id="result"></h3>
+    <label for="name" class="hide" id="label">Name:</label>
+    <input
+      type="text"
+      id="name"
+      class="hide"
+      placeholder="Enter Student Name"
+      required
+    />
+    <button id="submit" class="hide">Submit</button>
+
+    <ol id="scoresList"></ol>
+    <button id="back" class="hide">Back</button>
+    <button id="clear" class="hide">Clear</button>
+
+    <script src="index.js"></script>
+  </body>
+</html>

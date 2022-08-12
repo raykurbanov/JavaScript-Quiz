@@ -1,0 +1,217 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  position: relative;
+  background-color: rgba(243, 248, 248, 0.9);
+}
+
+.hide {
+  display: none !important;
+}
+
+#time {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+#scores {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+#paragraph {
+  width: 60%;
+  margin: 10px auto 15px;
+}
+
+.list {
+  margin: 10px auto;
+  text-align: center;
+  width: 40%;
+}
+
+.list-item {
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.link {
+  border: 1px solid #fff;
+  background-color: rgb(100, 77, 235);
+  text-decoration: none;
+  text-align: left;
+  color: #fff;
+  border-radius: 5px;
+  padding: 1px 10px;
+}
+
+button {
+  color: rgb(248, 246, 246);
+  border: none;
+  background-color: rgb(240, 80, 126);
+  padding: 4px 14px;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+#image {
+  height: 40vh;
+  width: 100vw;
+  background-image: url("./assets/background.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 15px;
+}
+
+.main {
+  font-size: 20px;
+  width: 70%;
+  margin: 5px auto;
+  height: 20px;
+  color: rgb(15, 15, 15);
+}
+
+#startQuiz {
+  margin-top: 10px;
+  transition: 1s all ease-in-out;
+}
+
+.height {
+  height: 75px;
+}
+
+label {
+  border-radius: 5px;
+  background-color: rgb(240, 80, 126);
+  padding: 2px 6px;
+  color: #fff;
+}
+
+input {
+  border-color: blue;
+  border-radius: 3px;
+  height: 25px;
+  margin: 5px 5px;
+}
+
+p {
+  color: rgb(5, 5, 137);
+  font-weight: bold;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+}
+
+.scoreList {
+  border: 1px solid black;
+  width: 300px;
+  margin: 10px auto;
+}
+
+#clear,
+#back {
+  margin-top: 10px;
+}
+
+#questions {
+  margin-top: 10px;
+  color: rgb(8, 8, 134);
+}
+
+#scores:hover {
+  color: rgb(28, 28, 221);
+  transition: 0.2s all ease-in-out;
+  cursor: pointer;
+}
+
+#scores:active {
+  transform: scale(0.95);
+}
+
+a:hover {
+  background-color: rgb(20, 20, 186);
+}
+
+li:active {
+  transform: scale(0.99);
+}
+
+button:hover {
+  background-color: rgb(173, 14, 59);
+  cursor: pointer;
+  transition: ease-in-out all 1s;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+#result {
+  margin: 10px auto;
+  color: rgb(74, 75, 76);
+  font-style: italic;
+  width: 45%;
+  text-align: left;
+  border-bottom: 1px solid rgb(132, 134, 136);
+  font-size: 16px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 80%;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(114, 114, 118);
+}
+
+.progress {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 4px;
+  background-color: rgb(16, 95, 243);
+  transition: all 0.3s;
+}
+
+.containeritem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 50%;
+  font-weight: bold;
+}
+
+.active {
+  border: 3px solid rgb(6, 158, 252);
+  background-color: aliceblue;
+}
+
+.finished {
+  background-color: rgb(12, 151, 244);
+}
